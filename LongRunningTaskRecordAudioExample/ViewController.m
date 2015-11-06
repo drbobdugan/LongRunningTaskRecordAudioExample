@@ -129,6 +129,7 @@
 //
 - (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag{
      NSLog(@"%s", __PRETTY_FUNCTION__);
+    [BackgroundTimeRemainingUtility NSLog];
 }
 
 @end
